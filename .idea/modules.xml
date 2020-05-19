@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Donate Blood.iml" filepath="$PROJECT_DIR$/Donate Blood.iml" group="Donate Blood" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="Donate Blood/app" />
+    </modules>
+  </component>
+</project>

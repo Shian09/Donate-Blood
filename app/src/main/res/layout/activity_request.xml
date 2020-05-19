@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Request"
+    android:orientation="vertical">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        app:cardBackgroundColor="@color/colorPrimaryDark">
+
+
+        <ImageButton
+            android:id="@+id/homeButtonRequest"
+            android:layout_width="80dp"
+            android:layout_height="81dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/rounded_button"
+            android:src="@drawable/ic_home_black_24dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="350px"
+            android:layout_height="400px"
+            android:src="@drawable/doctor"
+            android:layout_gravity="center"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Search"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                />
+
+
+            <Spinner
+                android:id="@+id/bloodGroupRequest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:gravity="center"
+                android:hint="Enter bloodgroup" />
+
+            <Spinner
+                android:id="@+id/districtRequest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:gravity="center"
+                android:hint="Enter district" />
+
+            <Button
+                android:id="@+id/searchButtonRequest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_button"
+                android:text="Search"
+                android:layout_marginLeft="161dp"
+                android:layout_marginTop="16dp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"/>
+
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/searchRecyclerRequest"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp"
+                app:layoutManager="LinearLayoutManager"
+                android:background="#FFFFFF" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

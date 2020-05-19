@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Donate Blood</string>
+    <string name="ans_to_process"> >At first half syringe of blood is taken from left hand for cross matching and other tests. After that a syringe is pushed to right hand to take required blood(It does not feel more than a bite of an ant). Finally, the blood is stored in a bag through a pipe just like saline.
+    </string>
+    <string name="ans_to_shoulddo">
+        >Need to have a good sleep. Need to have good breakfast(Not that which contains caffeine and excessive fat). Drink optimal water.
+    </string>
+    <string name="ans_to_shoulddoafter">
+        >One has to drink appropriate quantity of liquid of at least 4 glasses(Saline, Fruite juice). He/She must not do heavy work for 5 hours. He/She has to lie down in a way so that leg remains higher than head(Pillow might be used). Never get into tension. He/She should not smoke for at least 5 hours after blood donation.
+    </string>
+</resources>

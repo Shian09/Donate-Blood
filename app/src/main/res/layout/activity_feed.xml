@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Feed"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        app:cardBackgroundColor="@color/colorPrimaryDark">
+
+
+        <ImageButton
+            android:id="@+id/homeButtonFeed"
+            android:layout_width="80dp"
+            android:layout_height="81dp"
+            android:layout_marginTop="0dp"
+            android:layout_gravity="top|left"
+            android:background="@drawable/rounded_button"
+            android:src="@drawable/ic_home_black_24dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/refreshButtonFeed"
+            android:layout_width="80dp"
+            android:layout_height="81dp"
+            android:layout_marginRight="0dp"
+            android:layout_gravity="top|right"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/rounded_button"
+            android:src="@drawable/ic_refresh_black"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="350px"
+            android:layout_height="400px"
+            android:src="@drawable/doctor"
+            android:layout_gravity="center"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Feed"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerFeed"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        app:layoutManager="LinearLayoutManager"
+        android:background="#FFFFFF" />
+
+</LinearLayout>

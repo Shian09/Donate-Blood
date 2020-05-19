@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageViewRegister"
+                android:layout_width="65dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/doctorred"
+                android:layout_gravity="right" />
+
+            <TextView
+                android:id="@+id/donatebloodRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Donate Blood"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="50dp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/usernameRegister"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:hint="Username"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/emailRegister"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:hint="E-mail Address"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/passwordRegister"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="textPassword" />
+
+            <EditText
+                android:id="@+id/contactRegister"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:maxLength="11"
+                android:hint="Contact Number"
+                android:inputType="phone" />
+
+            <Spinner
+                android:id="@+id/bloodGroupRegister"
+                android:layout_width="210dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:visibility="visible" />
+
+            <Spinner
+                android:id="@+id/genderRegister"
+                android:layout_width="210dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:visibility="visible" />
+
+            <EditText
+                android:id="@+id/lastDonatedRegister"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:hint="Last Donated(dd/mm/yyyy)"
+                android:inputType="text"/>
+            <EditText
+                android:id="@+id/addressRegisterArea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:hint="Address(Area)"
+                android:inputType="text" />
+
+            <Spinner
+                android:id="@+id/addressRegisterDistrict"
+                android:layout_width="210dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:visibility="visible" />
+
+           <!-- <EditText
+                android:id="@+id/addressRegisterDistrict"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:hint="Address(District)"
+                android:inputType="text"/> -->
+
+
+
+            <Button
+                android:id="@+id/register_buttonRegister"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:background="#F41E47"
+                android:text="Register"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

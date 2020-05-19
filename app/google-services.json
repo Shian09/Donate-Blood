@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "676254211876",
+    "firebase_url": "https://donate-blood-8635d.firebaseio.com",
+    "project_id": "donate-blood-8635d",
+    "storage_bucket": "donate-blood-8635d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:676254211876:android:05be0e099e6c821339ddb1",
+        "android_client_info": {
+          "package_name": "com.example.donateblood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "676254211876-ok9hf2pe0vnfrh6p0777so445tnsk778.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.donateblood",
+            "certificate_hash": "7438001b7fe9feae79d68a16b17d93c8e3d18760"
+          }
+        },
+        {
+          "client_id": "676254211876-td8ra3qoggrsia6kcc3uja8ppi6j2tfk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.donateblood",
+            "certificate_hash": "5d906cd796232dec6fec0f6926f49605c9893261"
+          }
+        },
+        {
+          "client_id": "676254211876-foi636o5l9hhot0dns2m9qlgvpssk4je.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnuhTNnBiBjEE4rihTPH4X7nK2V3YEfTI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "676254211876-foi636o5l9hhot0dns2m9qlgvpssk4je.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
